@@ -1,0 +1,16 @@
+{
+  "name": "lian-xue",
+  "version": "1.0.0",
+  "description": "the Cre's love science",
+  "repository": "https://github.com/Himself65/LianXue.git",
+  "author": "himself65 <himself65@outlook.com>",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "dev": "vuepress dev .",
+    "build": "vuepress build ."
+  },
+  "dependencies": {
+    "vuepress": "^1.0.2"
+  }
+}

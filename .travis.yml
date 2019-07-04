@@ -1,0 +1,21 @@
+language: node_js
+
+node_js:
+  - "10"
+
+cache: yarn
+
+install:
+  - yarn install
+
+script:
+  - yarn build
+
+deploy:
+  provider: pages
+  skip_cleanup: true
+  github_token: $GITHUB_TOKEN
+  local_dir: ./vueress/dist
+  keep_history: false
+  on:
+    branch: master

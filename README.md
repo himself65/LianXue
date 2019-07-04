@@ -18,4 +18,4 @@
 
 ## 何时开始写
 
-![start-line](todo/1.png)
+![start-line](./public/1.png)
