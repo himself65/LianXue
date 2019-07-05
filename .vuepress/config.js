@@ -6,6 +6,7 @@ module.exports = {
     nav: [
       { text: '主页', link: '/' },
       { text: '恋学实践', link: '/r18/' },
+      { text: '推论证明', link: '/proof/' },
       { text: 'GitHub', link: 'https://github.com/himself65/LianXue' },
     ]
   }
