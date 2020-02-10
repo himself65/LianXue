@@ -1,7 +1,7 @@
 module.exports = {
   title: 'LianXue',
   description: 'the Cre\'s love science',
-  base: '/LianXue/',
+  base: process.env.BASE_URL || '/LianXue/',
   themeConfig: {
     nav: [
       { text: '主页', link: '/' },
